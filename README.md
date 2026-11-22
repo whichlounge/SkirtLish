@@ -1,16 +1,96 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# SKIRTLISH — Not Your Basic Mini.
 
-Currently, two official plugins are available:
+A Y2K-inspired online mini-skirt boutique built using React and Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Website
+https://skirt-lish.vercel.app/
 
-## React Compiler
+## GitHub Repository
+https://github.com/whichlounge/SkirtLish
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Business Overview
+SKIRTLISH is an online fashion boutique focused on edgy Y2K and 2000s-inspired mini skirts.
 
-## Expanding the ESLint configuration
+- Target audience: Ages 18–30
+- Operating area: Islamabad and Rawalpindi, Pakistan
+- Product catalogue: 12 mini skirts
+- Main user task: Browse products, select options, add items to cart, and complete a simulated checkout.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+- React
+- JavaScript
+- Vite
+- React Router DOM
+- HTML
+- CSS
+- Browser localStorage
+- Node.js test runner
+
+## Main Features
+- Home page and product catalogue
+- Product search, filtering, and sorting
+- Individual product detail pages
+- Size and colour selection
+- Shopping cart with quantity controls
+- Checkout form with validation
+- Order confirmation page
+- Persistent cart using localStorage
+- Loading, error, retry, and empty-result states
+- Responsive layout for mobile and desktop
+
+## Business Rules
+1. Customers cannot purchase more than the available stock.
+2. Customers must select a valid size and colour before adding a product to the cart.
+3. Orders of Rs. 5,000 or more receive free delivery. Orders below Rs. 5,000 have a Rs. 250 delivery fee.
+
+## Testing
+Business rules are tested using:
+- `node:test`
+- `node:assert/strict`
+
+Run tests using:
+
+```bash
+node --test
+```
+
+Build the production version using:
+
+```bash
+npm run build
+```
+
+## Installation and Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/whichlounge/SkirtLish.git
+```
+
+Move into the project folder:
+
+```bash
+cd SkirtLish
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Checkout Notice
+This project uses a simulated checkout process for academic purposes. It does not process real payments.
+
+## Deployment
+The website is deployed using Vercel.
+
+https://skirt-lish.vercel.app/
