@@ -1,0 +1,117 @@
+
+.checkout-page {
+  padding: 60px 7%;
+  min-height: 70vh;
+  background: #f5f0e8;
+  color: #191719;
+}
+
+.checkout-page h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 55px;
+  margin-bottom: 35px;
+}
+
+.checkout-page h1 span {
+  color: #ff3994;
+}
+
+.checkout-layout {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 50px;
+}
+
+.checkout-form,
+.checkout-summary {
+  background: white;
+  padding: 30px;
+}
+
+.checkout-form h2,
+.checkout-summary h2 {
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 25px;
+}
+
+.checkout-form label {
+  display: block;
+  font-weight: bold;
+  margin: 15px 0 7px;
+}
+
+.checkout-form input,
+.checkout-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #aaa;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+.checkout-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-error {
+  color: #d00050;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.checkout-form button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 15px;
+  border: none;
+  background: #ff3994;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.checkout-summary p {
+  margin: 15px 0;
+}
+
+.checkout-summary h3 {
+  margin-top: 20px;
+}
+
+@media (max-width: 700px) {
+  .checkout-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .checkout-page h1 {
+    font-size: 40px;
+  }
+}
+
+
+.confirmation-box {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px;
+  background: white;
+  text-align: center;
+}
+
+.confirmation-box h1 {
+  color: #191719;
+}
+
+.confirmation-box h1 span {
+  color: #ff3994;
+}
+
+.confirmation-box h2 {
+  margin-top: 25px;
+}
+
+.confirmation-note {
+  color: #777;
+  font-size: 13px;
+  margin: 25px 0;
+}
+
